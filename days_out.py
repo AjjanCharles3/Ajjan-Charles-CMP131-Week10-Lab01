@@ -1,3 +1,9 @@
+#Charles Ajjan
+#cmp131
+#week10
+#lab1
+#Days out
+#date started on 11-10-26
 def get_number_of_employees():
     num_employees = int(input("Enter the number of employees: "))
     while num_employees < 1:
