@@ -13,7 +13,7 @@ def get_computer_choice():
 def get_user_choice():
     valid_choices = ["Rock", "Paper", "Scissors"]
     while True:
-        user_input = input("Enter your choice (Rock, Paper, or Scissors): ").strip().capitalize()
+        user_input = input("Enter your choice (Rock, Paper, or Scissors): ")
         if user_input in valid_choices:
             return user_input
         print("Invalid choice. Please type Rock, Paper, or Scissors.\n")
